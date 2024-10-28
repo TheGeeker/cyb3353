@@ -1,0 +1,35 @@
+Installing Arch Linux on VMware
+1.	Download VMWare Workstation Player:
+a.	Visit the official VMware website and download the free Workstation Player for your operating system.
+b.	Install the software according to the provided instructions.
+2.	Download Arch Linux ISO:
+a.	Go to the official Arch Linux website and download the latest x86_64 ISO image.
+3.	Create a New Virtual Machine:
+a.	Open VMware Workstation Player.
+b.	Click on "Create a New Virtual Machine."
+c.	Select "Installer disc image file (iso)" and browse to the downloaded Arch Linux ISO.
+d.	Choose "Linux" as the guest operating system type and "Other Linux 4.x kernel" as the version.
+e.	Allocate appropriate memory (e.g., 2GB) and disk space (e.g., 20GB) for the virtual machine.
+4.	Boot into the Arch Linux Installer:
+a.	Power on the virtual machine.
+b.	Select the boot option for Arch Linux.
+c.	You'll be greeted with a command-line interface.
+5.	Use ip addr show to get internet status 
+6.	Lsblk to list drives to select install location 
+7.	Fdisk /dev/selected_drive
+a.	P – print drives / partitions
+b.	Go through prompts
+8.	Install ZSH using pacman
+a.	Pacman -S gnome grub gnome-tweaks mtools nano
+b.	
+9.	Use sudo useradd -m -g users -G wheel justin, codi, Jacob to add users as directed
+a.	Passwd USER
+b.	Type password as directed
+10.	Pacman -S linux
+11.	Lspci – List PCI devices 
+a.	Pacman -S nvidia nvidia-utils nvidia-lts
+12.	Install additional packages as needed
+13.	Reboot system after complete installation
+a.	Should boot into GUI
+
+
