@@ -52,3 +52,5 @@ docker-compose up -d
 
 docker-compose logs -f wireguard
 
+*Success, QR code, etc in theory*
+
