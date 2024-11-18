@@ -1,0 +1,14 @@
+Run the following commands:
+  
+Sudo apt update
+Sudo apt install docker.io
+Sudo systemctl start docker
+
+Use the command
+Sudo docker pull nginx
+
+Run the command
+Sudo docker run -d -p 80:80 nginx
+Open web browser and type in
+Localhost:80
+
