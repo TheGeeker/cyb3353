@@ -1,3 +1,7 @@
+Install docker from this link:
+https://docs.docker.com/engine/install/
+
+
 Run the following commands:
   
 Sudo apt update
